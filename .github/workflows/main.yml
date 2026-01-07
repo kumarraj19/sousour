@@ -32,7 +32,7 @@ jobs:
 - name: Create RDP User with EASY Custom Password
   run: |
     $username = "RDP"
-    $password = "123456"   # ✏️ كلمة مرور سهلة جدًا
+    $password = "Mohcen@2002.SAGE"   # 
     $securePass = ConvertTo-SecureString $password -AsPlainText -Force
 
     # حذف المستخدم إذا كان موجود
