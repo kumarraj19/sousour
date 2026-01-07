@@ -31,7 +31,7 @@ jobs:
 
         - name: Create RDP User with Custom Password
           run: |
-            $password = "RDP12345"   # ✏️ غيرها كما تريد
+            $password = "Mohcen@2002.SAGE"   # ✏️ غيرها كما تريد
             $securePass = ConvertTo-SecureString $password -AsPlainText -Force
         
             New-LocalUser -Name "RDP" -Password $securePass -AccountNeverExpires
